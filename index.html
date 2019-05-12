@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Demo slider with pure javascript</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-slide-to="0" class="active"></li>
+                <li data-slide-to="1" class=""></li>
+                <li data-slide-to="2" class=""></li>
+                <li data-slide-to="3" class=""></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-list">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="content">1</div>
+                    </div>
+                
+                    <div class="item">
+                        <div class="content">2</div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="content">3</div>
+                    </div>
+    
+                    <div class="item">
+                        <div class="content">4</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="javascript:void(0)" data-slide="prev" onClick="movePrevItem()">
+                prev
+            </a>
+            <a class="right carousel-control" href="javascript:void(0)" data-slide="next" onClick="moveNextItem()">
+                next
+            </a>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
